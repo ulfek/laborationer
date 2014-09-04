@@ -12,5 +12,23 @@
             <li><a href="presentation.html">Presentation</a></li>
             <li><a href="#">Kontakt</a></li>
         </ul>
+        <form>
+            <fieldset>
+            <legend>Fråga</legend>
+            <select name="ärendetyp">
+                <option value=fråga>Fråga</option>
+                <option value=felanmälan>Felanmälan</option>
+                <option value=supportn>Support</option>
+            </select>
+            <br>Rubrik: <input type=text" name="rubrik">
+            Fråga:<textarea rows="3" cols="25"></textarea>
+            </fieldset>
+            <fieldset>
+            <legend>Information om dig</legend>
+            Kontakta mig via mail<input type="checkbox" name=mail value="Mail"><br>
+            Kontakta mig via telefon<input type="checkbox" name=telefon value="Telefon"><br>
+            </fieldset>
+            <input type="submit" value="Skicka frågan">
+        </form>
     </body>    
 </html>
